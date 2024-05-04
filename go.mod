@@ -11,6 +11,7 @@ require (
 	github.com/observiq/bindplane-agent/exporter/googlecloudexporter v1.55.0
 	github.com/observiq/bindplane-agent/exporter/googlemanagedprometheusexporter v1.55.0
 	github.com/observiq/bindplane-agent/exporter/snowflakeexporter v1.55.0
+	github.com/observiq/bindplane-agent/internal/measurements v1.54.0
 	github.com/observiq/bindplane-agent/internal/report v1.55.0
 	github.com/observiq/bindplane-agent/packagestate v1.55.0
 	github.com/observiq/bindplane-agent/processor/datapointcountprocessor v1.55.0
@@ -321,8 +322,7 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/observiq/bindplane-agent/counter v1.55.0 // indirect
 	github.com/observiq/bindplane-agent/expr v1.55.0 // indirect
-	github.com/observiq/bindplane-agent/internal/measurements v1.55.0 // indirect
-	github.com/observiq/bindplane-agent/internal/rehydration v1.55.0 // indirect
+	github.com/observiq/bindplane-agent/internal/rehydration v1.54.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension v0.103.0 // indirect
@@ -539,7 +539,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.12.5 // indirect
 	github.com/gophercloud/gophercloud v1.8.0 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/gosnmp/gosnmp v1.37.0 // indirect
 	github.com/grafana/regexp v0.0.0-20221122212121-6b5c0a4cb7fd // indirect
 	github.com/grobie/gomemcache v0.0.0-20230213081705-239240bbc445 // indirect
