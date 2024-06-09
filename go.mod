@@ -321,7 +321,8 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/observiq/bindplane-agent/counter v1.55.0 // indirect
 	github.com/observiq/bindplane-agent/expr v1.55.0 // indirect
-	github.com/observiq/bindplane-agent/internal/rehydration v1.54.0 // indirect
+	github.com/observiq/bindplane-agent/internal/measurements v1.55.0 // indirect
+	github.com/observiq/bindplane-agent/internal/rehydration v1.55.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension v0.103.0 // indirect
@@ -802,6 +803,8 @@ replace github.com/observiq/bindplane-agent/internal/rehydration => ./internal/r
 replace github.com/observiq/bindplane-agent/internal/testutils => ./internal/testutils
 
 replace github.com/observiq/bindplane-agent/internal/report => ./internal/report
+
+replace github.com/observiq/bindplane-agent/internal/measurements => ./internal/measurements
 
 // Does not build with windows and only used in configschema executable
 // Relevant issue https://github.com/mattn/go-ieproxy/issues/45

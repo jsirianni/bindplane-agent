@@ -3,6 +3,7 @@ module github.com/observiq/bindplane-agent/processor/throughputmeasurementproces
 go 1.21.9
 
 require (
+	github.com/observiq/bindplane-agent/internal/measurements v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.103.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.103.0
 	github.com/stretchr/testify v1.9.0
@@ -40,3 +41,5 @@ require (
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/observiq/bindplane-agent/internal/measurements => ../../internal/measurements
