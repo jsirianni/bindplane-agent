@@ -1886,8 +1886,8 @@ github.com/onsi/gomega v1.10.1/go.mod h1:iN09h71vgCQne3DLsj+A5owkum+a2tYe+TOCB1y
 github.com/onsi/gomega v1.13.0/go.mod h1:lRk9szgn8TxENtWd0Tp4c3wjlRfMTMH27I+3Je41yGY=
 github.com/onsi/gomega v1.30.0 h1:hvMK7xYz4D3HapigLTeGdId/NcfQx1VHMJc60ew99+8=
 github.com/onsi/gomega v1.30.0/go.mod h1:9sxs+SwGrKI0+PWe4Fxa9tFQQBG5xSsSbMXOI8PPpoQ=
-github.com/open-telemetry/opamp-go v0.9.0 h1:S6Mwn8uxYjcttE6ZJ6AXoiOuryU67zjKysz3xRfYL9k=
-github.com/open-telemetry/opamp-go v0.9.0/go.mod h1:Pfmm5EdWqZCG0dZAJjAinlra3yEpqK5StCblxpbEp6Q=
+github.com/open-telemetry/opamp-go v0.14.0 h1:KoziIK+wsFojhUXNTkCSTnCPf0eCMqFAaccOs0HrWIY=
+github.com/open-telemetry/opamp-go v0.14.0/go.mod h1:XOGCigljsLSTZ8FfLwvat0M1QDj3conIIgRa77BWrKs=
 github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector v0.103.0 h1:BviPNiek7XypkqppkL9iCR6zXw5luUC7JYqeqp84kK4=
 github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector v0.103.0/go.mod h1:IlwHfTIBrOQhjjH3XIa622h4qHdpaWZR2Rnp8Pj68IA=
 github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector v0.103.0 h1:Kpfqjwp+nlgqacXkSS8T8iGiTMTFo8NoT8AoRomDOpU=
