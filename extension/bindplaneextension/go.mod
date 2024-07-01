@@ -4,7 +4,7 @@ go 1.21.9
 
 require (
 	github.com/golang/snappy v0.0.4
-	github.com/observiq/bindplane-agent/internal/measurements v1.54.0
+	github.com/observiq/bindplane-agent/internal/measurements v1.55.0
 	github.com/open-telemetry/opamp-go v0.14.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages v0.102.0
 	github.com/stretchr/testify v1.9.0
@@ -13,6 +13,7 @@ require (
 	go.opentelemetry.io/collector/extension v0.103.0
 	go.opentelemetry.io/collector/pdata v1.10.0
 	go.uber.org/goleak v1.3.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
@@ -50,7 +51,6 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.27.0 // indirect
 	go.opentelemetry.io/otel/trace v1.27.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.15.0 // indirect

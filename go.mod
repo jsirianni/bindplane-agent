@@ -322,7 +322,7 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/observiq/bindplane-agent/counter v1.55.0 // indirect
 	github.com/observiq/bindplane-agent/expr v1.55.0 // indirect
-	github.com/observiq/bindplane-agent/internal/rehydration v1.54.0 // indirect
+	github.com/observiq/bindplane-agent/internal/rehydration v1.55.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlemanagedprometheusexporter v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension v0.103.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension v0.103.0 // indirect
