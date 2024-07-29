@@ -55,46 +55,6 @@ builds:
       - -X github.com/observiq/bindplane-agent/updater/internal/version.date={{ .Date }}
     no_unique_dist_dir: false
 
-# https://goreleaser.com/customization/archive/
-archives:
-  - format: tar.gz
-    name_template: "{{ .ProjectName }}-v{{ .Version }}-{{ .Os }}-{{ .Arch }}"
-    files:
-      - LICENSE
-      - src: release_deps/opentelemetry-java-contrib-jmx-metrics.jar
-        dst: "."
-        strip_parent: true
-      - src: release_deps/config.yaml
-        dst: "."
-        strip_parent: true
-      - src: release_deps/logging.yaml
-        dst: "."
-        strip_parent: true
-      - src: release_deps/plugins/*
-        dst: plugins
-        strip_parent: true
-      - src: release_deps/VERSION.txt
-        dst: "."
-        strip_parent: true
-      - src: release_deps/com.observiq.collector.plist
-        dst: "install"
-        strip_parent: true
-      - src: release_deps/windows_service.json
-        dst: install
-        strip_parent: true
-      - src: release_deps/observiq-otel-collector.service
-        dst: "install"
-        strip_parent: true
-      - src: release_deps/observiq-otel-collector
-        dst: "install"
-        strip_parent: true
-      - src: release_deps/sysconfig/observiq-otel-collector
-        dst: "install/sysconfig"
-        strip_parent: true
-    format_overrides:
-      - goos: windows
-        format: zip
-
 nfpms:
   - id: collector
     file_name_template: "{{ .PackageName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
