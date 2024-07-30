@@ -230,7 +230,6 @@ docker_signs:
       "--key=cosign.key",
       "${artifact}",
       "--yes",
-dpaasman00 marked this conversation as resolved.
       # Additional options
       "--recursive"
     ]
